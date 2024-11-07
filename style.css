@@ -1,0 +1,28 @@
+html {
+    padding: 0px;
+    box-sizing:border-box;
+    font-size: 20px;
+    font-family: "woodpecker_demoregular","san-serif"
+}
+
+body {
+    background-image: url("images-and-fonts/wood.jpg");
+    background-color: brown;
+}
+
+#title {
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    text-align: center;
+    margin: auto;
+}
+
+@font-face {
+    font-family: 'woodpecker_demoregular';
+    src: url('images-and-fonts/woodpecker_demo-webfont.woff2') format('woff2'),
+         url('images-and-fonts/woodpecker_demo-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
